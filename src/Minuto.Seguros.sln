@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{FFA04C89-7397-4C58-BD03-B2135494A001}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{836DD694-FC22-410C-8178-CFC9F962B18F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{D2C920A4-1557-4097-ABF7-D924252157B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{58DB3E18-46C1-4263-BC9B-59F45B8AFD1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - CrossCutting", "4.1 - CrossCutting", "{58E569A2-4C8C-4821-8142-692DDEF5D314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuto.Seguros.Infra.CrossCutting", "Minuto.Seguros.Infra.CrossCutting\Minuto.Seguros.Infra.CrossCutting.csproj", "{67EE7CB7-4804-469F-B05B-1E50F709C790}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Data", "4.2 - Data", "{1B0F4628-3482-46F4-B9D8-80E9021905F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuto.Seguros.Infra.Data", "Minuto.Seguros.Infra.Data\Minuto.Seguros.Infra.Data.csproj", "{D09C4DBC-D564-495B-929A-F8A7BCD51D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuto.Seguros.Domain", "Minuto.Seguros.Domain\Minuto.Seguros.Domain.csproj", "{89C33D3B-269B-4B8C-9748-25F19660CE02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuto.Seguros.Application", "Minuto.Seguros.Application\Minuto.Seguros.Application.csproj", "{C5B0E5BC-BAB0-40FD-97D5-F8A395E8E00D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuto.Seguros.Service", "Minuto.Seguros.Service\Minuto.Seguros.Service.csproj", "{1DC0F90D-0A43-44FF-B97C-EC9090FD23CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3 - Client", "4.3 - Client", "{CB64D581-B76A-448B-8324-C83CF71DFDC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3.1 - Corporate", "4.3.1 - Corporate", "{D23B1506-6257-46D4-B31F-A4DDDB2B704C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuto.Seguros.Infra.Client.Corporate.Rss", "Minuto.Seguros.Infra.Client.Corporate.Rss\Minuto.Seguros.Infra.Client.Corporate.Rss.csproj", "{950035F1-0F08-4C7D-8DBE-508126547D0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67EE7CB7-4804-469F-B05B-1E50F709C790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EE7CB7-4804-469F-B05B-1E50F709C790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EE7CB7-4804-469F-B05B-1E50F709C790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EE7CB7-4804-469F-B05B-1E50F709C790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09C4DBC-D564-495B-929A-F8A7BCD51D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09C4DBC-D564-495B-929A-F8A7BCD51D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09C4DBC-D564-495B-929A-F8A7BCD51D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09C4DBC-D564-495B-929A-F8A7BCD51D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C33D3B-269B-4B8C-9748-25F19660CE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C33D3B-269B-4B8C-9748-25F19660CE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C33D3B-269B-4B8C-9748-25F19660CE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C33D3B-269B-4B8C-9748-25F19660CE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B0E5BC-BAB0-40FD-97D5-F8A395E8E00D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B0E5BC-BAB0-40FD-97D5-F8A395E8E00D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B0E5BC-BAB0-40FD-97D5-F8A395E8E00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B0E5BC-BAB0-40FD-97D5-F8A395E8E00D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC0F90D-0A43-44FF-B97C-EC9090FD23CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC0F90D-0A43-44FF-B97C-EC9090FD23CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC0F90D-0A43-44FF-B97C-EC9090FD23CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC0F90D-0A43-44FF-B97C-EC9090FD23CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950035F1-0F08-4C7D-8DBE-508126547D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950035F1-0F08-4C7D-8DBE-508126547D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950035F1-0F08-4C7D-8DBE-508126547D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950035F1-0F08-4C7D-8DBE-508126547D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58E569A2-4C8C-4821-8142-692DDEF5D314} = {58DB3E18-46C1-4263-BC9B-59F45B8AFD1F}
+		{67EE7CB7-4804-469F-B05B-1E50F709C790} = {58E569A2-4C8C-4821-8142-692DDEF5D314}
+		{1B0F4628-3482-46F4-B9D8-80E9021905F0} = {58DB3E18-46C1-4263-BC9B-59F45B8AFD1F}
+		{D09C4DBC-D564-495B-929A-F8A7BCD51D20} = {1B0F4628-3482-46F4-B9D8-80E9021905F0}
+		{89C33D3B-269B-4B8C-9748-25F19660CE02} = {836DD694-FC22-410C-8178-CFC9F962B18F}
+		{C5B0E5BC-BAB0-40FD-97D5-F8A395E8E00D} = {FFA04C89-7397-4C58-BD03-B2135494A001}
+		{1DC0F90D-0A43-44FF-B97C-EC9090FD23CE} = {D2C920A4-1557-4097-ABF7-D924252157B9}
+		{CB64D581-B76A-448B-8324-C83CF71DFDC6} = {58DB3E18-46C1-4263-BC9B-59F45B8AFD1F}
+		{D23B1506-6257-46D4-B31F-A4DDDB2B704C} = {CB64D581-B76A-448B-8324-C83CF71DFDC6}
+		{950035F1-0F08-4C7D-8DBE-508126547D0C} = {D23B1506-6257-46D4-B31F-A4DDDB2B704C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DE70224-24E4-489E-89D8-B8CA86B701DB}
+	EndGlobalSection
+EndGlobal

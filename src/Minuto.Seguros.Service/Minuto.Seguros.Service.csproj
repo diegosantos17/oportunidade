@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Minuto.Seguros.Infra.Client.Corporate.Rss\Minuto.Seguros.Infra.Client.Corporate.Rss.csproj" />
+    <ProjectReference Include="..\Minuto.Seguros.Infra.Data\Minuto.Seguros.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

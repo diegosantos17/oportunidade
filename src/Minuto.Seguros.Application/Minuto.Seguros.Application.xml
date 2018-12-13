@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>Saraiva.Connecta.Application</name>
+  </assembly>
+  <members>
+    <member name="T:Minuto.Seguro.Application.Controllers.V1.FeedsController">
+      <summary>
+        Gestão de feeds
+      </summary>
+    </member>
+    <member name="M:Minuto.Seguro.Application.Controllers.V1.FeedsController.BaixarFeeds()">
+      <summary>
+        Baixa todos os feeds disponibilizados pela Minuto Seguros
+      </summary>
+      <returns>Feeds disponibilizados pela Minuto Seguros.</returns>
+      <response code="200">Feeds disponibilizados pela Minuto Seguros</response>
+    </member>
+  </members>
+</doc>
